@@ -14,9 +14,6 @@ class Person1 implements PersonActivity{
 
 }
 
-class Person2{
-
-}
 
 class MainClass{
 
