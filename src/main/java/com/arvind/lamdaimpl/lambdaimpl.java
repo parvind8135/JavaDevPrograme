@@ -1,6 +1,6 @@
 package com.arvind.lamdaimpl;
 
-interface PersonActivity{                   //functional Interface
+interface PersonActivity{                   //functional Interface as it has only 1 function
     void run(String name, int v);
 }
 
