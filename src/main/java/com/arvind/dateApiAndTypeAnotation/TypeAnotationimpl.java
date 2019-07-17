@@ -8,6 +8,6 @@ import java.util.List;
 public class TypeAnotationimpl {
 
     public static void main(String[] args) {
-        @NotNull String str;
+        @NotNull String str;    //still not completed this implementation.
     }
 }
