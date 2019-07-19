@@ -21,6 +21,9 @@ public class MethodReference {
 
         GreetSomeone greeting2 = SayHelloClass::hello;
         greeting2.sayHello();
+
+
+
     }
 
 

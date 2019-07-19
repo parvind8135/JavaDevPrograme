@@ -34,6 +34,22 @@ class MainClass{
         System.out.println("This output is produce by Using Lambda Expression");
         p3.run("John",17);
 
+        System.out.println();
+
+        Runnable r1 = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Thread started");
+            }
+        };
+        Thread t1 = new Thread(r1);
+        t1.start();
+
+
+        Runnable r2 = ()-> System.out.println("Thread started with lamda expression");
+        Thread t2 = new Thread(r2);
+        t2.start();
+
     }
 }
 
