@@ -63,4 +63,7 @@ class MainClass{
         sortedlist = listOfInteger.stream().sorted().collect(Collectors.toList());
         sortedlist.forEach(System.out::println);    //Printing list using method reference
     }
+
+
 }
+
